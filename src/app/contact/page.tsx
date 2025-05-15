@@ -3,6 +3,7 @@ import { ContactForm } from './contact-form';
 import { Mail, Phone, MapPin, Linkedin, Github, Twitter } from 'lucide-react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Swarobo Hub',
@@ -68,3 +69,4 @@ export default function ContactPage() {
     </div>
   );
 }
+
