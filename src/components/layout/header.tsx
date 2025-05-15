@@ -23,9 +23,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
-          <Bot className="h-7 w-7 text-primary" />
-          <span className="text-xl font-bold">SWAROBO</span>
+        <Link href="/" className="flex items-center" onClick={() => setIsMobileMenuOpen(false)}>
+ <img src="/preview.png" alt="SWAROBO Logo" className="h-12 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}
@@ -56,8 +55,7 @@ export function Header() {
             <SheetContent side="right" className="w-full max-w-xs p-6">
               <div className="flex flex-col space-y-6">
                 <div className="flex items-center justify-between">
-                   <Link href="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
-                      <Bot className="h-7 w-7 text-primary" />
+                   <Link href="/" className="flex items-center" onClick={() => setIsMobileMenuOpen(false)}>
                       <span className="text-xl font-bold">SWAROBO</span>
                     </Link>
                   <SheetClose asChild>
