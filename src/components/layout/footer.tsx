@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="border-t bg-background">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-8 sm:flex-row">
         <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} SWAROBO. All rights reserved.
+          &copy; {new Date().getFullYear()} SWAROBO Co., Ltd. © 2024. all rights reserved.
         </p>
         <div className="flex items-center space-x-4">
           <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="SWAROBO on Twitter">

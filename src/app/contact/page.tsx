@@ -31,17 +31,17 @@ export default function ContactPage() {
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-primary" />
-                <span>info@swarobohub.com</span>
+                <span>hello@swarobo.ai</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>(+82) 010-7282-0618</span>
               </li>
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 mr-3 text-primary" />
-                <span>123 Innovation Drive, Tech City, TX 75001</span>
+                <span>Suite 811 (Pan-gyo Startup Zone), 815 Daewangpangyo-ro, Sujeong-gu, Seongnam-si, Gyeonggi-do, Republic of Korea</span>
               </li>
-            </ul>
+</ul>
           </div>
 
           <div>
