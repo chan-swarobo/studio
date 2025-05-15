@@ -6,8 +6,8 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | SWAROBO Hub',
-  description: 'Get in touch with SWAROBO Hub for inquiries, collaborations, or more information about our swarm robotics projects.',
+  title: 'Contact Us | SWAROBO',
+  description: 'Get in touch with SWAROBO for inquiries, collaborations, or more information about our swarm robotics projects.',
 };
 
 export default function ContactPage() {
@@ -15,7 +15,7 @@ export default function ContactPage() {
     <div className="space-y-12 md:space-y-16">
       <section className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          Contact <span className="text-primary">SWAROBO Hub</span>
+          Contact <span className="text-primary">SWAROBO</span>
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg leading-8 text-muted-foreground">
           We&apos;re excited to hear from you! Whether you have a question, a project idea, or just want to learn more, feel free to reach out.
@@ -48,17 +48,17 @@ export default function ContactPage() {
             <h3 className="text-2xl font-semibold text-foreground mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               <Button variant="outline" size="icon" asChild>
-                <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="SWAROBO Hub on Twitter">
+                <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="SWAROBO on Twitter">
                   <Twitter className="h-5 w-5" />
                 </Link>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="SWAROBO Hub on GitHub">
+                <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="SWAROBO on GitHub">
                   <Github className="h-5 w-5" />
                 </Link>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="SWAROBO Hub on LinkedIn">
+                <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="SWAROBO on LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </Link>
               </Button>

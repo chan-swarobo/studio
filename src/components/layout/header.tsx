@@ -25,7 +25,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
           <Bot className="h-7 w-7 text-primary" />
-          <span className="text-xl font-bold">SWAROBO Hub</span>
+          <span className="text-xl font-bold">SWAROBO</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -58,7 +58,7 @@ export function Header() {
                 <div className="flex items-center justify-between">
                    <Link href="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
                       <Bot className="h-7 w-7 text-primary" />
-                      <span className="text-xl font-bold">SWAROBO Hub</span>
+                      <span className="text-xl font-bold">SWAROBO</span>
                     </Link>
                   <SheetClose asChild>
                      <Button variant="ghost" size="icon">

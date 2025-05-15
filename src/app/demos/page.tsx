@@ -3,8 +3,8 @@ import { DemoCard } from '@/components/demo-card';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Demos | SWAROBO Hub',
-  description: 'Explore interactive demos of swarm robotics applications by SWAROBO Hub.',
+  title: 'Demos | SWAROBO',
+  description: 'Explore interactive demos of swarm robotics applications by SWAROBO.',
 };
 
 const demos = [

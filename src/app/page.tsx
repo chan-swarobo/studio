@@ -11,7 +11,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="text-center pt-8 md:pt-12">
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
-          Welcome to <span className="text-primary">SWAROBO Hub</span>
+          Welcome to <span className="text-primary">SWAROBO</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg leading-8 text-muted-foreground sm:text-xl">
           Pioneering the future of autonomous systems through collaborative swarm robotics. Explore cutting-edge demonstrations and learn about our mission to innovate.
@@ -35,7 +35,7 @@ export default function HomePage() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Why Swarm Robotics?</h2>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-            Swarm robotics offers unparalleled advantages in complex tasks, scalability, and robustness. Discover how SWAROBO Hub is harnessing this potential.
+            Swarm robotics offers unparalleled advantages in complex tasks, scalability, and robustness. Discover how SWAROBO is harnessing this potential.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">

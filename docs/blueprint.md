@@ -1,4 +1,4 @@
-# **App Name**: Swarobo Hub
+# **App Name**: SWAROBO
 
 ## Core Features:
 
