@@ -3,8 +3,8 @@ import { DemoCard } from '@/components/demo-card';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Demos | Swarobo Hub',
-  description: 'Explore interactive demos of swarm robotics applications by Swarobo Hub.',
+  title: 'Demos | SWAROBO Hub',
+  description: 'Explore interactive demos of swarm robotics applications by SWAROBO Hub.',
 };
 
 const demos = [
@@ -54,7 +54,7 @@ export default function DemosPage() {
     <div className="space-y-10">
       <section className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          Swarobo <span className="text-primary">Demos</span>
+          SWAROBO <span className="text-primary">Demos</span>
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg leading-8 text-muted-foreground">
           Explore interactive demonstrations of swarm robotics in action. See how collaborative intelligence is solving complex problems.

@@ -19,10 +19,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Swarobo Hub - Revolutionizing Swarm Robotics',
-  description: 'Explore the future of autonomous systems with Swarobo Hub. Discover demos, learn about our mission, and get in touch.',
+  title: 'SWAROBO Hub - Revolutionizing Swarm Robotics',
+  description: 'Explore the future of autonomous systems with SWAROBO Hub. Discover demos, learn about our mission, and get in touch.',
   icons: {
-    icon: '/favicon.ico', // Assuming a favicon might be added later
+    icon: '/public/icons/favicon.ico', // Assuming a favicon might be added later
   },
 };
 

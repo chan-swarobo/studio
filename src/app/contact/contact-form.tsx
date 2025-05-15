@@ -105,7 +105,7 @@ export function ContactForm() {
                 <FormItem>
                   <FormLabel>Subject</FormLabel>
                   <FormControl>
-                    <Input placeholder="Inquiry about Swarobo Demos" {...field} />
+                    <Input placeholder="Inquiry about SWAROBO Demos" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

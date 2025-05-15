@@ -5,8 +5,8 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us | Swarobo Hub',
-  description: 'Learn about Swarobo Hub, our mission, and the team driving innovation in swarm robotics.',
+  title: 'About Us | SWAROBO Hub',
+  description: 'Learn about SWAROBO Hub, our mission, and the team driving innovation in swarm robotics.',
 };
 
 const teamMembers = [
@@ -50,7 +50,7 @@ export default function InfoPage() {
     <div className="space-y-12 md:space-y-16">
       <section className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          About <span className="text-primary">Swarobo Hub</span>
+          About <span className="text-primary">SWAROBO Hub</span>
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg leading-8 text-muted-foreground">
           Dedicated to advancing the field of swarm robotics through research, development, and education.
@@ -101,7 +101,7 @@ export default function InfoPage() {
           <Users className="h-12 w-12 text-primary mx-auto mb-4" />
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Meet Our Team</h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            The passionate minds behind Swarobo Hub, driving the future of autonomous collaboration.
+            The passionate minds behind SWAROBO Hub, driving the future of autonomous collaboration.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
