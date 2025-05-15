@@ -22,7 +22,10 @@ export const metadata: Metadata = {
   title: 'SWAROBO - Revolutionizing Swarm Robotics',
   description: 'Explore the future of autonomous systems with SWAROBO. Discover demos, learn about our mission, and get in touch.',
   icons: {
-    icon: '/public/icons/favicon.ico', // Assuming a favicon might be added later
+    icon: '/icons/favicon.ico', // Assuming a favicon might be added later
+  },
+  openGraph: {
+    images: '/preview.png',
   },
 };
 
