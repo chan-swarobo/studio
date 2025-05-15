@@ -29,19 +29,21 @@ export default function ContactPage() {
           <div>
             <h3 className="text-2xl font-semibold text-foreground mb-4">Our Contact Information</h3>
             <ul className="space-y-3 text-muted-foreground">
-              <li className="flex items-center">
+              <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-3 text-primary" />
                 <span>hello@swarobo.ai</span>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 text-primary" />
                 <span>(+82) 010-7282-0618</span>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-start flex-nowrap">
                 <MapPin className="h-5 w-5 mr-3 text-primary" />
-                <span>Suite 811 (Pan-gyo Startup Zone), 815 Daewangpangyo-ro, Sujeong-gu, Seongnam-si, Gyeonggi-do, Republic of Korea</span>
+                <span className="flex-1">
+                  Suite 811 (Pan-gyo Startup Zone), 815 Daewangpangyo-ro, Sujeong-gu, Seongnam-si, Gyeonggi-do, Republic of Korea
+                </span>
               </li>
-</ul>
+            </ul>
           </div>
 
           <div>
